@@ -10,7 +10,8 @@
     "commit": "git-cz",
     "release": "standard-version",
     "major": "standard-version --release-as major",
-    "minor": "standard-version --release-as minor"
+    "minor": "standard-version --release-as minor",
+    "patch": "standard-version --release-as patch"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -18,9 +19,11 @@
     "chalk": "^4.0.0",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
+    "dotenv": "^8.2.0",
     "git-cz": "^4.6.2",
     "husky": "^4.2.5",
     "ora": "^4.0.4",
+    "signale": "^1.4.0",
     "standard-version": "^8.0.0"
   },
   "husky": {
